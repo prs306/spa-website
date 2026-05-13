@@ -210,6 +210,33 @@ nav a:hover {
   margin: 0 auto;
 }
 
+.testimonial-grid,
+.faq-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.testimonial-card,
+.faq-item {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 24px;
+  border: 1px solid rgba(189, 151, 181, 0.16);
+  box-shadow: 0 18px 38px rgba(119, 58, 91, 0.06);
+}
+
+.testimonial-author {
+  margin-top: 16px;
+  font-weight: 700;
+  color: #7a3b6d;
+}
+
+.faq-item h4 {
+  margin-top: 0;
+  color: #4f2d4a;
+}
+
 .footer {
   text-align: center;
   padding: 26px 0 12px;
@@ -218,7 +245,9 @@ nav a:hover {
 
 @media (max-width: 900px) {
   .feature-grid,
-  .service-grid {
+  .service-grid,
+  .testimonial-grid,
+  .faq-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -242,7 +271,9 @@ nav a:hover {
   }
 
   .feature-grid,
-  .service-grid {
+  .service-grid,
+  .testimonial-grid,
+  .faq-grid {
     grid-template-columns: 1fr;
   }
 

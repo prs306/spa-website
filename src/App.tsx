@@ -105,6 +105,48 @@ function App() {
           </div>
         </section>
 
+        <section id="testimonials" className="section testimonials-section">
+          <div className="section-header">
+            <h2>What Clients Say</h2>
+            <p>Trusted by women in Jaipur for private spa services and thoughtful care.</p>
+          </div>
+          <div className="testimonial-grid">
+            <article className="testimonial-card">
+              <p>"Beautiful atmosphere and very caring staff. I felt respected and relaxed throughout the treatment."</p>
+              <p className="testimonial-author">— Priya, Jaipur</p>
+            </article>
+            <article className="testimonial-card">
+              <p>"The bridal prep package was exactly what I needed. The private spa space made the experience special."</p>
+              <p className="testimonial-author">— Neha, Jaipur</p>
+            </article>
+            <article className="testimonial-card">
+              <p>"Great service, calm environment, and a perfect ladies-only spa experience."</p>
+              <p className="testimonial-author">— Ritu, Jaipur</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="faq" className="section faq-section">
+          <div className="section-header">
+            <h2>Frequently Asked Questions</h2>
+            <p>Quick answers for booking, safety, and our ladies-only policies.</p>
+          </div>
+          <div className="faq-grid">
+            <article className="faq-item">
+              <h4>Is Relax Spa only for women?</h4>
+              <p>Yes, Relax Spa is designed exclusively for women to provide privacy and comfort in every treatment.</p>
+            </article>
+            <article className="faq-item">
+              <h4>Can I book a bridal prep session?</h4>
+              <p>Absolutely. We offer bridal preparation services tailored for weddings and special events.</p>
+            </article>
+            <article className="faq-item">
+              <h4>How do I book an appointment?</h4>
+              <p>Contact us by phone or email to reserve your preferred date and treatment.</p>
+            </article>
+          </div>
+        </section>
+
         <section id="contact" className="section contact-section">
           <div className="section-header">
             <h2>Contact Us</h2>
