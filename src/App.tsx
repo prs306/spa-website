@@ -51,6 +51,27 @@ function App() {
           </div>
         </section>
 
+        <section id="why" className="section why-section">
+          <div className="section-header">
+            <h2>Why Choose Us</h2>
+            <p>We combine luxury, privacy, and expert care to deliver a spa experience that feels truly special.</p>
+          </div>
+          <div className="feature-grid">
+            <div className="feature-card highlight-card">
+              <h3>Women-Focused Care</h3>
+              <p>Every treatment is designed with women's wellness in mind.</p>
+            </div>
+            <div className="feature-card highlight-card">
+              <h3>Tranquil Ambiance</h3>
+              <p>Relax in a soft, peaceful environment made for comfort and calm.</p>
+            </div>
+            <div className="feature-card highlight-card">
+              <h3>Flexible Booking</h3>
+              <p>Book your preferred slot and enjoy a personalized appointment.</p>
+            </div>
+          </div>
+        </section>
+
         <section id="services" className="section services-section">
           <div className="section-header">
             <h2>Our Services</h2>
@@ -92,7 +113,7 @@ function App() {
           <div className="contact-card">
             <p><strong>Email:</strong> parassharma6569@gmail.com</p>
             <p><strong>Phone:</strong> 8126055304</p>
-            <p><strong>Location:</strong> Relax Spa Studio, Your City</p>
+            <p><strong>Location:</strong> Relax Spa Studio, Jaipur, Rajasthan</p>
           </div>
         </section>
       </main>
